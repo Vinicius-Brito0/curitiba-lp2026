@@ -1,0 +1,27 @@
+<footer>
+        <div class="conteiner rodape-flex">
+            <div class="rodape-coluna-esquerda">
+                <img src="Logo-1.png" alt="Logo Numeratti" class="logo-rodape">
+                <p class="texto-atendimento">Atendemos em todo o Brasil e União Europeia. <img src="Frame 74.png"
+                        alt="Bandeiras Brasil e Europa" class="bandeiras"></p>
+                <p class="endereco">ENDEREÇO: Rua Dr. Hermes Lima, 46 - Edson Queiroz, Fortaleza/CE, 60811-870</p>
+            </div>
+            <div class="rodape-coluna-direita">
+                <div class="suporte-e-sociais">
+                    <a href="" class="central-suporte">
+                        <img src="Vector.png" alt="WhatsApp"> Central de Suporte 
+                    </a>
+                    <div class="redes-sociais">
+                        <img src="Frame 100.png" alt="Redes Sociais">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    

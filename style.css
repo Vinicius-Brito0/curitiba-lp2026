@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #03060B;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.header-container {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container .logonum {
+    padding: 20px;
+}
+
+.link-header .menu{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    margin-right: 78px;
+    list-style: none;
+}
+
+.menu .linkpage{
+    align-items: center;
+    justify-content: center;
+}
+
+.header-container .icon-header {
+    display: flex;
+    padding: 10px;
+}
+
+.socialicon {
+    justify-content: center;
+    width: 30px;
+}
