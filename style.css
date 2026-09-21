@@ -104,6 +104,13 @@ span {
     border-radius: 16px;
     border: 1px solid;
     border-color: #0b3346;
+    transition: 0.6;
+}
+
+.button-page1:hover {
+    background-color: rgb(34, 59, 92);
+    border: 1px solid;
+    border-color: #4d9ec4;
 }
 
 .image-box {
@@ -199,6 +206,7 @@ label {
 
 .break-form { 
     display: flex;
+    width: 100%;
     gap: 10px;
 }
 
@@ -224,6 +232,7 @@ label {
     outline: none;
 }
 
+
 #button-form {
     margin-top: 20px;
     padding: 10px;
@@ -231,6 +240,13 @@ label {
     border: none;
     color: white;
     background: linear-gradient(45deg,#1B7DAE, #0b2d3d);
+    cursor: pointer;
+    transition: 1;
+}
+
+#button-form:hover {
+    background: #1B7DAE;
+    color: rgb(222, 239, 255);
 }
 
 .sf {
@@ -354,6 +370,10 @@ label {
     margin-top: 180px;
     margin-left: 160px;
     font-size: 25px;
+}
+
+.text-down-page4 {
+    padding-top: 20px;
 }
 
 .container-icon-page4 {
