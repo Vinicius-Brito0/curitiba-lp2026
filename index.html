@@ -8,50 +8,50 @@
 </head>
 <body>
     <main>
-        <header>
-            <div class="header-container">
-                <figure>
-                    <img src="assets/num.svg" alt="Logo Numeratti" class="logonum">
-                </figure>
-                <div class="link-header">
-                    <nav>
-                        <ul class="menu">
-                            <li><a href="" class="linkpage">Sobre</a></li>
-                            <li><a href="" class="linkpage">Números</a></li>
-                            <li><a href="" class="linkpage">Métodos</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="icon-header">
+        <section class="bg-page1">
+            <header>
+                <div class="header-container">
                     <figure>
-                        <div class="icon-box">
-                                <a href=""><img src="assets/facebook.svg" alt="Facebook" class="socialicon"></a>
-                                <a href=""><img src="assets/instagram.svg" alt="Instagram" class="socialicon"></a>
-                                <a href=""><img src="assets/linkedin.svg" alt="LinkedIn" class="socialicon"></a>
-                        </div>
+                        <img src="assets/num.svg" alt="Logo Numeratti" class="logonum">
                     </figure>
-                </div>
-            </div>
-        </header>
-
-        <section class="page1">
-            <div class="container-page1">
-                <div class="text-box-page1">
-                    <h2>Performance Digital para <br> Empresas de <span>Curitiba</span></h2>
-                    <p>Mais <span>leads</span>, mais <span>vendas</span> e <span>resultados reais</span> com <br> estratégias orientadas por dados.</p>
-                    <div class="box-button">
-                        <a href="" class="button-page1">Quero crescer em Curitiba</a>
+                    <div class="link-header">
+                        <nav>
+                            <ul class="menu">
+                                <li><a href="" class="linkpage">Sobre</a></li>
+                                <li><a href="" class="linkpage">Números</a></li>
+                                <li><a href="" class="linkpage">Métodos</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="icon-header">
+                        <figure>
+                            <div class="icon-box">
+                                <a href="https://www.facebook.com/?locale=pt_BR"><img src="assets/facebook.svg" alt="Facebook" class="socialicon"></a>
+                                <a href="https://www.instagram.com/"><img src="assets/instagram.svg" alt="Instagram" class="socialicon"></a>
+                                <a href="https://br.linkedin.com/"><img src="assets/linkedin.svg" alt="LinkedIn" class="socialicon"></a>
+                            </div>
+                        </figure>
                     </div>
                 </div>
-                <div class="iamge-box">
-                    <figure class="box-image-notebook">
-                        <img src="assets/imgpc.svg" alt="Imagem notebook">
-                    </figure>
+            </header>
+            <section class="page1">
+                <div class="container-page1">
+                    <div class="text-box-page1">
+                        <h2>Performance Digital para <br> Empresas de <span>Curitiba</span></h2>
+                        <p>Mais <span>leads</span>, mais <span>vendas</span> e <span>resultados reais</span> com <br> estratégias orientadas por dados.</p>
+                        <div class="box-button">
+                            <a href="" class="button-page1">Quero crescer em Curitiba</a>
+                        </div>
+                    </div>
+                    <div class="image-box">
+                        <figure class="box-image-notebook">
+                            <img src="assets/imgpc.svg" alt="Imagem notebook">
+                        </figure>
+                    </div>
+    
                 </div>
- 
-            </div>
+            </section>
         </section>
-
         <section class="page2">
             <div class="container-page2">
                 <div class="content-box-page2">
@@ -70,110 +70,112 @@
                     </div>
                 </div>
                 <div class="box-form">  
-                    <p class="title-form">Preencha o formulário e descubra como nossa consultoria <br> pode aumentar sua presença digital e vendas.</p>
                     <form class="content-form">
+                        <div class="title-form">
+                            <p>Preencha o formulário e descubra como nossa consultoria <br> pode aumentar sua presença digital e vendas.</p>
+                        </div>
                         <div class="break-form">
-                            <div>
-                                <label for="name">Nome Completo</label>
-                                <input type="text" id="name" name="name" placeholder="e.x: Carlos Emanuel" required>
+                            <div class="left-box-form">
+                                <label for="nome" class="sf">Nome Completo</label>
+                                <input type="text" id="nome" name="name" placeholder="e.x: Carlos Emanuel" required>
                             </div>
-                            <div>
-                                <label for="telefone">Telefone</label>
+                            <div class="right-box-form">
+                                <label for="telefone" class="sf">Telefone</label>
                                 <input type="number" id="telefone" name="telefone" placeholder="e.x: +55 85 0000-0000" required>
                             </div>
                         </div>
-                        <div>
-                            <label for="email">E-mail</label>
+                            <label for="email" class="sf">E-mail</label>
                             <input type="email" id="email" name="email" placeholder="e.x: carlosemanuel@gmail.com" required/>
-                        </div>
-                        <div>
-                            <div>
-                                <label for="segmento">Segmento da Empresa</label>
+                        <div class="break-form">
+                            <div  class="left-box-form">
+                                <label for="segmento" class="sf">Segmento da Empresa</label>
                                 <input type="text" id="segmento" name="segmento" placeholder="e.x: Carlos Emanuel" required>
                             </div>
-                            <div>
-                                <label for="telefone">Extrato Mensal</label>
-                                <input type="number" id="telefone" name="telefone" placeholder="e.x: +55 85 0000-0000" required>
+                            <div class="right-box-form">
+                                <label for="extrato" class="sf">Extrato Mensal</label>
+                                <input type="number" id="extrato" name="extrato" placeholder="e.x: +55 85 0000-0000" required>
                             </div>
                         </div>
-                        <div>
-                            <label for="validacao">6 + 1 = ?</label>
-                            <input type="number" id="validacao" name="validacao" placeholder="e.x: 7" required>
+                            <label for="validacao" class="sf">6 + 1 = ?</label>
+                            <input type="number" id="validacao" name="validacao" placeholder="e.x: 6" required>
+                        <div class="accept">
+                            <input type="checkbox" id="accept" name="aceito">
+                            <label for="aceito">Eu concordo em receber comunicações. <br> Ao informar meus dados, eu concordo com a Política de Privacidade.</label>
                         </div>
-                        <input type="checkbox" id="aceito" name="aceito">
-                        <label for="aceito">Eu concordo em receber comunicações. Ao informar meus dados, eu concordo com a Política de Privacidade.</label>
                         <button id="button-form">Quero receber minha estratégia agora</button>
                     </form>
                 </div>
             </div>
         </section>
-
         <section class="page3">
-            <div>
-                <div class="top-box">
-                    <p><span>+110</span> empresas já cresceram com a <span>Numeratti</span>.</p>
-                </div>
-                <div>
-                    <div class="left-box">
-                        <p><span>+19.400 leads</span> gerados</p>
+            <div class="container-page3">
+                <div class="big-box-page3">
+                    <div class="top-box">
+                        <span class="size-p3">+110</span> <p class="text-top-page3">empresas já cresceram com a <span class="space">Numeratti</span>.</p> 
                     </div>
-                    <div class="right-box">
-                        <p><span>R$ 1,9 milhão</span> em faturamento</p>
+                    <div class="break-box-page3">
+                        <div class="left-box">
+                           <span class="size-p3-small">+19.400 leads</span> <p>gerados</p>
+                        </div>
+                        <div class="right-box">
+                            <span class="size-p3-small">R$ 1,9 milhão</span> <p>em faturamento</p>
+                        </div>
+                    </div>
+                    <div class="box-button-page3">
+                        <a href="" class="button-page3">Quero fazer parte desse resultado</a>
                     </div>
                 </div>
-                    <a href="" class="button-page3">Quero fazer parte desse resultado</a>
-                </div>
+            </div>
         </section>
-
         <section class="page4">
             <div class="container-page4">
-                <div> 
+                <div class="text-box-page4"> 
                     <h2>Não vendemos promessas. <br><span>Entregamos performance</span></h2> <br>
                     <p><small>Gestão de campanhas em:</small></p>
                 </div>
                 <div class="container-icon-page4">
-                    <div class="box-ads-g">
-                        <a href="" title="Google Ads">
-                            <figure>
+                    <div class="box-icon">
+                            <figure class="bg-icon">
                                 <img src="assets/googleads.svg" alt="Google Ads">
-                                <figcaption>Google Ads</figcaption>
+                                <figcaption class="color-img">Google Ads</figcaption>
                             </figure>
                         </a>
                     </div>
-                    <div class="box-">
-                        <a href="" title="Facebook & Instagram Ads">
-                            <figure>
+                    <div class="box-icon">
+                            <figure class="bg-icon">
                                 <img src="assets/ads.svg" alt="Facebook & Instagram Ads">
-                                <figcaption>Facebook & Instagram Ads</figcaption>
+                                <figcaption class="color-img">Facebook & Instagram Ads</figcaption>
                             </figure>
                         </a>
                     </div>
-                    <div class="box-">
-                        <a href="" title="Linkedin Ads">
-                            <figure>
+                    <div class="box-icon">
+                            <figure class="bg-icon">
                                 <img src="assets/linkedinp2.svg" alt="Linkedin Ads">
-                                <figcaption>Linkedin Ads</figcaption>
+                                <figcaption class="color-img">Linkedin Ads</figcaption>
                             </figure>
                         </a>
                     </div>
-                    <div    class="box-">
-                        <a href="" title="Youtube Ads">
-                            <figure>
+                    <div class="box-icon">
+                            <figure class="bg-icon">
                                 <img src="assets/yt.svg" alt="Youtube Ads">
-                                <figcaption>Youtube Ads</figcaption>
+                                <figcaption class="color-img">Youtube Ads</figcaption>
                             </figure>
                         </a>
                     </div>
                 </div>
-                <p>Com dashboards em tempo real para acompanhar cada resultado.</p>
+                <div class="text-down-page4">
+                    <p class="small-text-page4">Com <span>dashboards em tempo real</span> para acompanhar cada resultado.</p>
+                </div>    
             </div>
         </section>
 
         <section class="page5">
             <div class="container-page5">
                 <div class="text-box-page5">
-                    <p>Sua empresa pronta para <br><span>crescer em Curitiba</span>.</p>
-                    <p>Agende uma conversa gratuita com nosso time e descubra <br> como escalar seus resultados.</p>
+                    <p class="text-page5">Sua empresa pronta para <br><span>crescer</span> em <span>Curitiba</span>.</p>
+                    <p class="small-text-page5">Agende uma conversa gratuita com nosso time e descubra <br> como escalar seus resultados.</p>
+                </div>
+                <div class="box-button-page5">
                     <a href="" class="button-page5">Quero minha estratégia agora</a>
                 </div>
             </div>
@@ -181,20 +183,46 @@
 
         <footer>
             <section class="footer-container">
-                <div class="container-footer">
-                    <div class="right-box-footer">
-                        <div class="logo-box">
-                            <figure>
+                <div class="main-box-footer">
+                    <div class="left-box-footer">
+                        <div class="content-footer">
+                            <figure class="num-logo-footer">
                                 <img src="assets/num.svg" alt="Numeratt1">
                             </figure>
-                            <p>Atendemos em todo o Brasil e União Europeia 
-                                <img src="assets/uni.svg" alt="Bandeira União Europeia">
-                                <img src="assets/bras.svg" alt="Bandeira Brasil">
-                            </p>
+                            <div class="footer-text-left"> 
+                                <div class="box-text-top">
+                                    <p class="text-box-footer"> Atendemos em todo o <br> Brasil e União Europeia</p>
+                                    <figure class="img-text-footer">
+                                        <img src="assets/uni.svg" alt="Bandeira União Europeia">
+                                        <img src="assets/bras.svg" alt="Bandeira Brasil">
+                                    </figure>
+                                </div>
+                                <div class="box-text-down">
+                                    <p>NUMERATTI SERVICOS DE MARKETING LTDA - CNPJ: 40.099.330/0001-09 <br>
+                                    Endereço: Rua Dr. Hermes Lima, 45 - Edson Queiroz, Fortaleza/CE, 60811-570</p>
+                                </div>
+                            </div>
                         </div>
-                        <!--FOOTER LADO DIREITO INACABADO-->
-                        <div>
-                            <p></p>
+                    </div>
+                    <div class="right-box-footer">
+                        <figure class="logos-footer">
+                            <img src="assets/logo-google-partner.svg" alt="">
+                            <img src="assets/partner.svg" alt="">
+                        </figure>
+                        <div class="icon-footer">
+                            <div class="wpp-box">
+                                <figure class="suporte-footer">
+                                    <a href="https://web.whatsapp.com/"><img src="assets/zap.svg" alt="WhatsApp"></a>
+                                    <figcaption class="color-footer">central de Suporte</figcaption>
+                                </figure>
+                            </div>    
+                            <figure>
+                                <div class="icon-box-footer">
+                                    <a href="https://www.facebook.com/?locale=pt_BR"><img src="assets/facebook.svg" alt="Facebook" class="socialicon-footer"></a>
+                                    <a href="https://www.instagram.com/"><img src="assets/instagram.svg" alt="Instagram" class="socialicon-footer"></a>
+                                    <a href="https://br.linkedin.com/"><img src="assets/linkedin.svg" alt="LinkedIn" class="socialicon-footer"></a>
+                                </div>
+                            </figure>
                         </div>
                     </div>
                 </div>
